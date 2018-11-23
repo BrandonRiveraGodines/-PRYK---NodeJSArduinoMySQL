@@ -11,5 +11,5 @@ Proyecto para Villanueva actualizando un campo de una base de datos automáticam
 * Se deberá cambiar en la variable __mysql__ dentro del archivo *node.js* según las especificaciones de tu proyecto, tales cómo: __HOST (localhost), USER, PASSWORD y DATABASE__ **(img5)**
 * Se deberá cambiar en la parte del query de la base de datos el nombre de la __TABLA__, __COLUMNA__ y __id__ según como lo tenga en su proyecto **(img6)** 
 
-__IMG1__
-![](/images/img1.jpg)
+
+![__IMG1__](/images/img1.jpg)
