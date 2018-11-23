@@ -10,3 +10,6 @@ Proyecto para Villanueva actualizando un campo de una base de datos automáticam
 * En el archivo del código de __Arduino__ no tener ningún _Serial.println_ **A EXCEPCIÓN** de donde se muestra en el puerto Serial **EL VALOR DE LA TEMPERATURA** **(img4)**
 * Se deberá cambiar en la variable __mysql__ dentro del archivo *node.js* según las especificaciones de tu proyecto, tales cómo: __HOST (localhost), USER, PASSWORD y DATABASE__ **(img5)**
 * Se deberá cambiar en la parte del query de la base de datos el nombre de la __TABLA__, __COLUMNA__ y __id__ según como lo tenga en su proyecto **(img6)** 
+
+__IMG1__
+![](/images/img1.jpg)
