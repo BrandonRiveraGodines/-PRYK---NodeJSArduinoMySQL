@@ -13,5 +13,4 @@ Proyecto para Villanueva actualizando un campo de una base de datos automáticam
 
 __IMG1__
 
-
 ![__IMG1__](/images/img1.jpg)
