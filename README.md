@@ -3,6 +3,6 @@ Proyecto para Villanueva actualizando un campo de una base de datos automáticam
 
 ### Es necesario ejecutar los siguientes pasos para que funcione correctamente el programa
 
-*Instalar Node JS (realizado en Node JS Versión: 10.9.0)
-*Borrar la Carpeta llamada: 'node_modules
-*Ejecutar el comando npm init situado en la carpeta 'NodeJSArduiino
+* Instalar Node JS (realizado en Node JS Versión: 10.9.0)
+* Borrar la Carpeta llamada: __node_modules__
+* Ejecutar el comando npm init situado en la carpeta __NodeJSArduiino__
