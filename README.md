@@ -11,6 +11,7 @@ Proyecto para Villanueva actualizando un campo de una base de datos automáticam
 * Se deberá cambiar en la variable __mysql__ dentro del archivo *node.js* según las especificaciones de tu proyecto, tales cómo: __HOST (localhost), USER, PASSWORD y DATABASE__ **(img5)**
 * Se deberá cambiar en la parte del query de la base de datos el nombre de la __TABLA__, __COLUMNA__ y __id__ según como lo tenga en su proyecto **(img6)** 
 * Se deberá cambiar el puerto por el cual se hará la comunicación, el puerto del arduino y el puerto que está en el código dentro de __node.js__ deberá ser el mismo. **(im7)**
+* Para recibir datos desde Arduino se deberá cambiar el __Script__ del __Select__ con el campo en especifico a considerar según las necesidades de su proyecto, así como modificar la respuesta que se enviará a través del puerto Serial, __(en el ejemplo se muestra enviando un 1)__ y programar en Arduino lo que sucederá al recibir ese 1 **(img 8)**
 
 __IMG1__
 
@@ -39,3 +40,6 @@ __IMG6__
 __IMG7__
 
 ![__IMG7__](/images/img7.jpg)
+
+__IMG8__
+![__IMG8__](/images/img8.jpg)

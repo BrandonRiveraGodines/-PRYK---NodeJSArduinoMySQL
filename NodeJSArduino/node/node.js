@@ -3,9 +3,6 @@ const http = require('http');
 const socketIO = require('socket.io');
 const mysql = require('mysql');
 
-
-
-
 const app = express();
 const server = http.createServer(app);
 const io = socketIO.listen(server);
@@ -48,6 +45,17 @@ parser.on('data', function(data) {
             console.log("1 record update");
         });
         connection.end();
+    });
+
+    connection.connect(function(err){
+        if(err) throw err;
+        connection.query("SELECT temperatura FROM temperatura WHERE id = " + "1", function(err, result, fields){
+            if(err) throw err;
+            console.log(result[0].temperatura);
+            if(result[0].temperatura != null && result[0].temperatura != undefined)
+            console.log("1");
+            port.write(result);
+        });
     });
 });
 
